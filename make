@@ -73,16 +73,16 @@ op_release="etc/flippy-openwrt-release"
 ophub_release_file="etc/ophub-release"
 
 # Dependency files download repository
-depends_repo="https://github.com/ophub/amlogic-s9xxx-armbian"
+depends_repo="https://github.com/lovelace545/amlogic-s9xxx-armbian"
 # U-BOOT files download repository
-uboot_repo="https://github.com/ophub/u-boot"
+uboot_repo="https://github.com/lovelace545/u-boot"
 # Firmware files download repository
-firmware_repo="https://github.com/ophub/firmware"
+firmware_repo="https://github.com/lovelace545/firmware"
 # Install/Update script files download repository
-script_repo="https://github.com/ophub/luci-app-amlogic"
+script_repo="https://github.com/lovelace545/luci-app-amlogic"
 
 # Set the kernel download repository from github.com
-kernel_repo="https://github.com/ophub/kernel"
+kernel_repo="https://github.com/lovelace545/kernel"
 # Set the tags(kernel_xxx) of the default kernel that can be replaced via the [ -u ] parameter
 default_tags="stable"
 kernel_usage=""
