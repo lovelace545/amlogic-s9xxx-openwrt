@@ -26,7 +26,7 @@ sed -i 's/192.168.1.1/192.168.3.50/g' package/base-files/files/bin/config_genera
 rm -rf package/luci-app-amlogic
 git clone https://github.com/lovelace545/luci-app-amlogic.git package/luci-app-amlogic
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
-git clone https://github.com/animegasan/luci-app-wolplus package/luci-app-wolplus
+git clone https://github.com/animegasan/luci-app-wolplus.git package/luci-app-wolplus
 
 #
 # Apply patch
